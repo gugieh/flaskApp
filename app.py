@@ -369,4 +369,4 @@ def deleteFolder():
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
-    app.run(debug=True)
+    app.run(host='172.31.29.49', port=5000, debug=True)
